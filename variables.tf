@@ -11,7 +11,7 @@ EOT
   type = map(object({
     eventgrid_namespace_id  = string
     name                    = string
-    event_retention_in_days = optional(number) # Default: 7
+    event_retention_in_days = optional(number)
   }))
 }
 
